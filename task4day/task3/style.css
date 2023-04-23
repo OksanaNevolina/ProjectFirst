@@ -1,0 +1,53 @@
+main{
+    width: 400px;
+    height: 400px;
+    /*background-color: darkgray;*/
+}
+.name{
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+
+}
+.FirstName,.LastName {
+    width: 150px;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 3px;
+    border: 1px solid gray;
+    font-family: 'Kanit', sans-serif;
+    font-size: 16px;
+
+}
+.email, .password{
+    width: 327px;
+    height: 30px;
+    margin: 20px 0 0 33px;
+    border-radius: 3px;
+    border: 1px solid gray;
+    font-family: 'Kanit', sans-serif;
+    font-size: 16px;
+}
+.text{
+    width: 327px;
+    height: 30px;
+    margin: 20px 0 0 33px;
+    font-size: 13px;
+
+}
+a{
+    text-decoration: none;
+
+}
+.submit{
+    width: 327px;
+    height: 33px;
+    margin: 5px 0 0 33px;
+    background-color: #d2d22c;
+    border-radius: 10px;
+    border: none;
+
+    font-family: 'Kanit', sans-serif;
+    font-size: 16px;
+
+}

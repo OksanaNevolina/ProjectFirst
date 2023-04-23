@@ -1,0 +1,52 @@
+
+.widgets {
+    width: 100%;
+    height: 200px;
+    background-color: cornflowerblue;
+    margin-bottom: 10px;
+
+
+}
+
+p {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin: 0;
+}
+
+.parent {
+    width: 100%;
+    height: 200px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+}
+
+.bigWidgets, .biggerWidgets, .hugeWidgets {
+    width: 33%;
+    height: 200px;
+    background-color: blue;
+}
+
+.contact {
+    width: 100%;
+    height: 400px;
+    background-color: cornflowerblue;
+
+}
+.contact p{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin: 0;
+
+
+}
+

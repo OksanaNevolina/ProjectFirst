@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>task2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+      body{
+          margin: 0;
+
+      }
+    main{
+        height: 1000px;
+        width:1000px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: darkcyan;
+    }
+    .forms{
+        height: 400px;
+        width: 600px;
+        background-color: aliceblue;
+        border-radius: 25px;
+        font-family: 'Raleway', sans-serif;
+
+
+
+    }
+    .box1{
+        height: 100px;
+        width: 600px;
+        background-color: #dce4f5;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 35px;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+    'Raleway', sans-serif;
+
+
+
+    }
+    .box2{
+
+        height: 300px;
+        width: 600px;
+
+        margin: 0;
+
+    }
+    .part1{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        height: 150px;
+        width: 600px;
+    }
+    .clic{
+        height: 35px;
+        width:400px;
+        margin: 15px 0;
+        border: 1.5px solid gray;
+    }
+    .part2{
+        display: flex;
+        justify-content: center;
+        column-gap: 140px;
+        align-items: center;
+        height: 150px;
+        width: 600px;
+        font-size: 20px;
+    }
+    .sub{
+        height: 28px;
+        width:100px;
+        background-color: #dce4f5;
+        border-radius: 10px;
+        font-family: 'Raleway', sans-serif;
+    }
+
+
+
+  </style>
+</head>
+<body>
+<main>
+<div class="forms">
+    <div class="box1">
+<p> Вхід в особитий кабінет</p>
+    </div>
+    <div class="box2">
+     <div class="part1">
+         <input class="clic" type="text" name="username" type="email" name="email" placeholder="Логін або email" required >
+        <input class="clic"  type="password" name="password" placeholder="Пароль" >
+    </div>
+      <div class="part2">
+        <label for="checkbox">  Запам'ятати мене<input type="checkbox" id="checkbox" name="checkbox" ></label>
+        <input  class="sub" type="submit" value="Вхід">
+      </div>
+    </div>
+
+
+</div>
+
+</main>
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+.box1, .box5, .box234, .box2,.box3,.box4{
+    width: 100%;
+    min-height: 200px;
+    background-color: rebeccapurple;
+}
+.box234{
+    display: flex;
+    justify-content: center;
+}
+.box2,.box3,.box4{
+    width: 33.33%;
+    background-color: hotpink;
+}
+.box3{
+    background-color: #937986;
+}
+.box4{
+    background-color: #d9c6cf;
+}

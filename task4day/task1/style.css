@@ -1,0 +1,123 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.box1{
+    height: 380px;
+    width: 350px;
+    margin: 10px 0;
+
+    border: 2px solid gray;
+
+}
+.box2{
+    height: 41px;
+    width: 350px;
+     margin: 10px 0;
+    border: 2px solid gray;
+    font-size: 10px;
+    color: black;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+}
+.box2P{
+    font-size: 10px;
+    color: black;
+}
+a{
+text-decoration: none;
+    color: cornflowerblue;
+}
+
+img{
+    height: 53px;
+    width: 174px;
+    margin: 36px 0 12px;
+
+}
+.imgP{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.formC{
+    height: 266px;
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: space-evenly;
+    padding-top: 20px;
+
+}
+.but0{
+    height:20px;
+    width: 250px;
+    border: 1px solid black;
+    padding: 9px 0 7px 8px;
+    margin-bottom: 10px;
+    background-color: #dedada;
+    border-radius:3px;
+}
+.but{
+    height:20px;
+    width: 250px;
+    border-radius:10px;
+    margin: 15px 40px;
+    background-color: #3171e7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 0 7px 8px;
+}
+.hrBut{
+    height:15px;
+    width: 268px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+hr{
+    width: 6em;
+}
+p{
+    margin: 0 18px;
+    color: #525156;
+    font-size: 20px;
+
+}
+.but p{
+    color: floralwhite;
+}
+.face{
+    height:20px;
+    width: 268px;
+    margin: 8px 40px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.if{
+    height:25px;
+    width:25px;
+    margin: 0;
+
+
+}
+.facebookP{
+    font-size: 16px;
+    color: blue;
+}
+.pasH5{
+    height:20px;
+    width: 268px;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+
+   }
+

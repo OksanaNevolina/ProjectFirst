@@ -1,0 +1,109 @@
+
+body{
+    margin: 0;
+    font-family: 'Jost', sans-serif;
+    overflow: hidden;
+}
+header{
+    height:20vh;
+    width: 100vw;
+    background-color: #e8dde3;
+
+    display: flex;
+    justify-content: flex-end;
+
+
+    font-weight: 400;
+    font-size: 35px;
+    color: #7A7070;
+}
+.p1,.p2,.p3,.p4{
+    margin-right: 100px;
+}
+.p1{
+    color: cornflowerblue;
+}
+
+
+
+main{
+    display: flex;
+    justify-content:space-around;
+
+
+    height: 80vh;
+    width: 100vw;
+
+}
+.content{
+    width:40vw;
+    height: 40vw;
+
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+
+}
+.text1{
+
+    width:40vw;
+    height: 10vw;
+
+    font-weight: 400;
+    font-size: 35px;
+    color: #000000;
+
+
+
+}
+.text2{
+    width:40vw;
+    height: 20vw;
+
+    margin-top: 10px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+
+
+    color: #000000;
+
+}
+.buttons{
+
+    width:40vw;
+    height: 8vw;
+    margin-top: 10px;
+    display: flex;
+    column-gap: 50px;
+    align-items: flex-start;
+
+
+
+
+
+
+
+}
+.b1{
+    border: 1px solid #000000;
+    border-radius: 30px;
+}
+.b2{
+
+    border: 1px solid #000000;
+    border-radius: 30px;
+
+}
+.art{
+    background-image: url("https://static.wikia.nocookie.net/m__/images/d/d5/%D0%9A%D1%80%D0%BE%D0%BB%D0%B8%D0%BA_%28%D0%9A%D0%B8%D0%B5%D0%B2%29.png/revision/latest?cb=20170204230128&path-prefix=metro%2Fru");
+    width:40vw;
+    height: 40vw;
+    background-size: cover;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    border-radius: 30%;
+
+}

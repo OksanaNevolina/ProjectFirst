@@ -1,0 +1,16 @@
+.list1  > ul > li:first-child{
+    color: pink;
+}
+.list2 > ul > li:nth-child(odd){
+    font-size: 22px;
+}
+.list3>ul > li:nth-child(2n+4):before{
+    content: "! ";
+}
+.list4> ul > li:last-child {
+    color: purple;
+}
+.list5 > ul > li:first-letter{
+    color:red;
+    font-size: 30px;
+}

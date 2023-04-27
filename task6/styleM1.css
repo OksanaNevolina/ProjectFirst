@@ -1,0 +1,28 @@
+@media screen and (min-width: 300px) and (max-width: 800px){
+main,.wrap,.box2{
+    flex-direction: column;
+}
+    .boxB{
+        width: 100vw;
+        height: 40vh;
+        border: 1px solid blue;
+        box-sizing: border-box;
+
+    }
+
+    .boxA,.boxF,.boxCDE{
+        width: 100vw;
+        height: 20vh;
+        border: 1px solid blue;
+        box-sizing: border-box;
+    }
+   .box{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       width: 33.33vw;
+       height: 20vh;
+
+
+   }
+}

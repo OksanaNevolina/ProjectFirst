@@ -271,6 +271,7 @@ console.log(' ');
 //     За допомоги іф перевірити кожен його елемент на тривалість навчання.
 //     У випадку якщо тривалість довша за 5 місяців вивести в консоль "Супер".
 
+
 let coursesAndDurationArray = [
     {title: 'JavaScript Complex', monthDuration: 5},
     {title: 'Java Complex', monthDuration: 6},
@@ -301,6 +302,7 @@ if (coursesAndDurationArray[0]['monthDuration'] > 5) {
 } else {
     console.log('погано')
 }
+
 
 
 

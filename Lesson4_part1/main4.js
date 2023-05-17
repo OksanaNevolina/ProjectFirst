@@ -101,22 +101,22 @@ function blokUser(arrr) {
    blokUser(users);
 
 //
-// // - створити функцію яка повертає найменьше число з масив- тут от ніяк
+// // - створити функцію яка повертає найменьше число з масив
 
 
 
-// let nnn =[2,3,10];
-// function fil(arr) {
-//    let small = arr[0];
-//     for (let i = 0; i < arr.length; i++) {
-//         if (arr[i] > small){
-//             small= arr[i]
-//             console.log(small)
-//         }
-//     }
-// return small;
-// }
-// fil(nnn);
+let nnn =[2,3,10];
+function fil(arr) {
+   let small = arr[0];
+    for (let i = 1; i < arr.length; i++) {
+        if (small > arr[i]){
+            small= arr[i]
+        }
+    }
+return small;
+}
+
+console.log(fil(nnn));
 
 
 // - створити функцію sum(arr)яка приймає масив чисел, сумує значення елементів масиву та повертає його.
@@ -126,11 +126,11 @@ function sum(arr) {
     let qwe = 0;
     for (let i = 0; i < arr.length; i++) {
         qwe += arr[i];
-        console.log(qwe)
     }
     return qwe;
 }
-sum(nnn1);
+
+console.log(sum(nnn1));
 
 
 
@@ -171,6 +171,18 @@ let exchangeCurrency = ['usd', 'eur'];
 
 let qqq = exchange(sumUAH,currencyValues,exchangeCurrency);
 console.log(qqq);
+document.write(`<div class="button">${qqq}</div>`);
 
 
-//ЗАВДАННЯ ВИКОНАЛА, АЛЕ НЕ ЗОВСІМ ТАК ЯК В УМОВІ, АЛЕ РЕЗУЛЬТАТ ТОЙ ЯКИЙ ПОВИНЕН БУТИ.
+// function exchange(sumUAH,currencyValues,exchangeCurrency){
+//     for (const currencyValuesElement of currencyValues) {
+//         if (currencyValuesElement.currency === exchangeCurrency){
+//             return sumUAH/currencyValuesElement.value
+//         }
+//     }
+// };
+// let rasalt =(10000,[{currency:'USD',value:40},{currency:'EUR',value:42}],'USD');
+// console.log(rasalt);
+// document.write(`<div class="button">${rasalt}</div>`);
+
+//ЗАВДАННЯ ВИКОНАЛА(останє), АЛЕ НЕ ЗОВСІМ ТАК ЯК В УМОВІ, АЛЕ РЕЗУЛЬТАТ ТОЙ ЯКИЙ ПОВИНЕН БУТИ.

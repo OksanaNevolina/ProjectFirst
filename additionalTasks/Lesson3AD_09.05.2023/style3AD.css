@@ -1,0 +1,32 @@
+.user-block{
+    background-color: cornflowerblue;
+    height: 300px;
+    width: 400px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.post-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #8192b0;
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+}
+.wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.a1{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+}

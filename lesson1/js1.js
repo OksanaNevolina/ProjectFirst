@@ -54,3 +54,4 @@ let yourAge = +prompt(' your  age');
 console.log(nameUser);
 console.log(surname);
 console.log(yourAge);
+document.write(`hello`)

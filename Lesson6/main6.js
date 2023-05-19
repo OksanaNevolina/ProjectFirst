@@ -171,18 +171,18 @@ console.log(' ')
 // =========================
 //
 //     Взяти описану колоду карт, та за допомоги reduce упакувати всі карти по "мастях"
-//     в об'єкт     ЗАПОВНЮЄ ТІЛЬКИ ОДИН МАСИВ, ПРОБУВАЛА І ЧЕРЕЗ IF І ЧЕРЕЗ switch ВСЕОДНО
+//     в об'єкт
 let cardsss = cards.reduce((acc,car)=>{
 switch (car.cardSuit) {
-    case 'spades':
+    case 'spade':
         acc.spades.push(car);
         break;
 
-    case 'diamonds':
+    case 'diamond':
         acc.diamonds.push(car);
         break;
 
-    case 'hearts':
+    case 'heart':
         acc.hearts.push(car);
         break;
 
@@ -197,16 +197,17 @@ console.log(cardsss);
 // =========================
 //     взяти з arrays.js (який лежить в папці 2023 plan) масив coursesArray
 let coursesArray =
-    {
+[    {
         title: 'JavaScript Complex',
         monthDuration: 5,
         hourDuration: 909,
         modules: ['html', 'css', 'js', 'mysql', 'mongodb', 'react', 'angular', 'aws', 'docker', 'git', 'node.js','css']
-    }
+    }];
 
-// --написати пошук всіх об'єктів, в який в modules є sass
+// --написати пошук всіх об'єктів, в який в modules є css
+const a11113 = coursesArray.filter((val) => val.modules.includes('css') );
+console.log(a11113);
 
-console.log( coursesArray.modules.indexOf('css'));
 // --написати пошук всіх об'єктів, в який в modules є dockerlet coursesArray
-console.log( coursesArray.modules.indexOf('docker'));
-// Останє завдання не правильне, тому що знахожу перший , а не всі , а в умові потрібно всі.... буду дивитися на розборі
+let wfff = coursesArray.filter(value => value.modules.includes('docker'));
+console.log(wfff)

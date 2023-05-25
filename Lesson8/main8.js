@@ -72,7 +72,6 @@ function Car( model, manufacturer, year,maximumsSpeed,engineCapacity ) {
     this.year  = year;
     this.maximumsSpeed = maximumsSpeed;
     this.engineCapacity = engineCapacity;
-
 }
  let car = new Car('Volkswagen Tiguan','Volkswagen',2020,250,2.5);
 console.log(car);
@@ -81,7 +80,6 @@ return `їдемо зі швидкістю ${this.maximumsSpeed}  кіломер
 }
 console.log(car.drive())
 // -- info () - яка виводить всю інформацію про автомобіль в форматі `назва поля - значення поля`
-
  Car.prototype.info =  function(){
     return `model: ${this.model}, 
              manufacturer: ${this.manufacturer} , 
@@ -89,8 +87,7 @@ console.log(car.drive())
              maxumsSpeed : ${this.maximumsSpeed} ,
              engineCapacity: ${this.engineCapacity} `
     }
-
-console.log(car.info());
+    console.log(car.info());
 // -- increaseMaxSpeed (newSpeed) - яка підвищує значення максимальної швидкості на значення newSpeed
 
 Car.prototype.increaseMaxSpeed =  function(newSpeed){

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .wrapper {
+            border: red solid 4px;
+        }
+
+        .flex {
+            display: flex;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<!--    // - Створити довільний елемент з id = text та створити кнопку.Використовуючи JavaScript, зробіть так,-->
+<!--    // щоб при натисканні на кнопку зникав елемент з id="text".-->
+
+<script>
+    // - Створити довільний елемент з id = text та створити кнопку.Використовуючи JavaScript, зробіть так,
+    // щоб при натисканні на кнопку зникав елемент з id="text".
+    const block = document.createElement('div');
+    const btn = document.createElement('button');
+
+    block.innerText = ' російська мова це мова окупантів, ворогів України, яка несе війну, смерть, руйнування.\n' +
+        '\n' +
+        'Той хто розмовляє, пише, використовує російську мову свідомо або не свідомо підтримує москалів і їх дії.';
+    btn.innerText = 'CLICK';
+    btn.onclick = () =>  block.style.display = 'none';
+    document.body.append(block, btn);
+</script>
+
+
+</body>
+</html>

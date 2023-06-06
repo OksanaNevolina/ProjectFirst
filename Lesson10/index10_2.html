@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Статистика перезавантаження сторінки : <b id="nnn"></b></h1>
+<script>
+    // є сторінка, на якій є блок, я кому знаходиьтся цифра. написати код, який при кожному перезавантажені сторінки буде додавати до неї +1
+     let stat = localStorage.getItem('stat' || []);
+     let numFirst = document.getElementById('nnn')
+    let static = (+stat +1).toString();
+     numFirst.innerText = static;
+     localStorage.setItem('stat', static);
+</script>
+
+</body>
+</html>

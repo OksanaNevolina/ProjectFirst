@@ -1,5 +1,32 @@
-body{
-    background-color: #eeff7f;
-    font-size: 25px ;
 
+
+body{
+    box-sizing: border-box;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    background-image: url("sky.jpg");
+    background-size: cover;
+}
+
+div, button{
+    box-sizing: border-box;
+    height:70px;
+    width: 405px;
+    border: 1px solid blue;
+    text-align: center;
+    padding: 3px;
+    margin: 10px;
+    background-color: cornflowerblue;
+    border-radius: 5px;
+}
+button{
+    height:25px;
+    width: 300px;
+    font-size: 14px;
+    background-color: #babac2;
+    border: 3px solid #150b6c;
+    color: #150b6c;
 }

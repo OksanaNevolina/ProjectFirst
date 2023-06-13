@@ -28,18 +28,16 @@ fetch('https://jsonplaceholder.typicode.com/users')
     .then(users => {
         console.log(users);
         users.map(user => {
-            // console.log(user);
             let divUserBloc = document.createElement('div');
-            // divUserBlocc.lassList.add('userBloc');
             divUserBloc.innerText = ` ID: ${user.id} - NAME: ${user.name} `
             let btn_user = document.createElement('button');
-            // btn_user.classList.add('user_btn');
-            btn_user.innerText =' reference on post  ';
+            btn_user.innerText ='INFO about  user  ';
+            btn_user.onclick = function (ev) {
+                ev.preventDefault();
+                location.href = `indexRecDet.html?userId=${user.id}`;
+            }
             divUserBloc.appendChild(btn_user);
-            // let a = document.createElement('a');
-            // a.href = 'user_details.html'+user.id;
-            // a.innerText= 'jhj';
-            // divUserBloc.appendChild(a);
+
             document.body.appendChild(divUserBloc);
 
 

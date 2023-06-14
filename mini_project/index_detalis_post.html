@@ -60,8 +60,7 @@
             // divDetalisComment.classList.add('divDetalisCommentClass')
             for (const com of comments) {
                 let div0= document.createElement('div');
-
-
+                div0.innerText = 'comment'
                 // console.log(com);
                 for (const comKey in com) {
                     let divInfoComment = document.createElement('div');
@@ -70,8 +69,10 @@
                     divInfoComment.innerText = `${comKey} : ${com[comKey]}`;
                     let divBlocPost = document.getElementsByTagName('div')[0];
                     divBlocPost.appendChild(divInfoComment);
-
                 }
+
+                let divBlocPost1 = document.getElementsByTagName('div')[0];
+                divBlocPost1.appendChild(div0);
 
 
             }
